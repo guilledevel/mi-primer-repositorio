@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#calculadora{
+    width: 300px;
+    height: auto;
+    background-color: #65dee7;
+    border: 1px solid #04e976;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#visor input {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    font-size: 28px;
+    text-align: right;
+    font-weight: 600;
+    color: #05572e;
+    background-color: #fff;
+    border: 1px solid #04e976;
+    border-radius: 10px;
+}
+
+#teclado{
+    width: 100%;
+    height: 340px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.operador{
+    width: 60px;
+    height: 60px;
+    background-color: #04e976;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #05964d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.numero{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    color: #05572e;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #08743e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* hacer que el elemento mas ocupe dos cuadros */
+
+
+
+.operador:hover{
+    background-color: #fff;
+    color: #04e976;
+    transition: 0.5s;
+}
+
+
+.numero:hover{
+    background-color: #04e976;
+    color: #fff;
+    transition: 0.5s;
+}
