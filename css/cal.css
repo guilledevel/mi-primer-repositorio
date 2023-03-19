@@ -2,6 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.con{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: #013a08;
+    background-color: #04e976;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid #013a08;
+    cursor: pointer;
+}
+
+
+.con h1{
+    font-size: 16px;
 }
 
 #calculadora{
